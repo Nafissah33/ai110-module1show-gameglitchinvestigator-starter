@@ -33,11 +33,12 @@ It wrote the code, ran away, and now the game is unplayable.
 
 Describe your fixed game in numbered steps so a reader can follow along without watching a video:
 
-1. <!-- Describe this step -->
-2. <!-- Describe this step -->
-3. <!-- Describe this step -->
-4. <!-- Describe this step -->
-5. <!-- Add more steps as needed -->
+1. User opens Debug Info and sees the secret is 55
+2. User enters a guess of 40 → "Too Low"
+3. User enters a guess of 70 → "Too High"
+4. Score updates correctly after each guess (-5 per miss)
+5. User enters a guess of 55 → "Correct!" and the game ends
+6. User clicks New Game → secret, attempts, and score reset and the game is playable again
 
 **Screenshot** *(optional)*: <!-- Insert a screenshot of your fixed, winning game here -->
 
